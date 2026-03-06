@@ -1,0 +1,48 @@
+body
+{
+    background-image:   url("roses.gif"),
+                        url("horses.gif"),
+                        url("glitter.gif");
+
+    background-size:    220px 260px,
+                        260px 140px,
+                        128px 128px;
+
+    background-repeat:  repeat-y,
+                        repeat-x,
+                        repeat;
+
+    background-blend-mode: exclusion, lighten;
+
+}
+
+p
+{
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero
+{
+    /* définitions du background des éléments class="hero" */
+    background-color: cyan;
+    background-image: url("crabs.gif");
+    background-size: 200px 240px;
+    background-blend-mode: exclusion;
+
+    mix-blend-mode: lighten;
+
+    /* instructions du bloc */
+    width: 200px;
+    height: 250px;
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.hero img {
+    height:120px;
+    mix-blend-mode: darken;
+}
